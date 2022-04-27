@@ -1,0 +1,40 @@
+.fa-style{
+    font-size:xx-large;
+    color: black;
+}
+.fa:hover{
+    color: red;
+}
+.thumbnail{
+    filter: blur(3px);
+}
+.thumbnail:hover{
+    filter: blur(0px);
+}
+img{
+    width:95%;
+}
+img:hover{
+    width: 105%; 
+}
+
+.header-div{
+    height: 20vh;
+    background-image: url(images/headerimg.jpg);
+    background-size: cover;
+    background-position-y: center;
+    text-align: center;
+    filter: opacity(40%);
+  
+}
+.footer-div{
+    height: 10vh;
+    background-color: rgba(101, 100, 100, 0.516);
+
+}
+.container-style{
+    margin-bottom: 12vh;
+    margin-top: 10vh;
+    text-align: center;
+
+}
