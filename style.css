@@ -34,6 +34,43 @@ a {
   height: 10vh;
   background-color: rgba(101, 100, 100, 0.516);
 }
+#back1{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    filter: blur(3px);
+}
+
+   
+   
+
+@keyframes main{
+    0%{
+      background-image: url(images/back1.jpg);
+      }
+    30%{
+      background-image: url(images/back2.jpg);
+      }
+    60%{
+      background-image: url(images/back3.jpg);
+      }
+    100%{
+      background-image: url(images/back4.jpg);
+      }
+}
+.main-div{
+  background-image: url(images/back1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  animation-name:main;
+  animation-duration:30s;
+  animation-iteration-count: infinite;
+  font-family: 'Noto Sans Hebrew', sans-serif;
+}
 
 @media screen and (max-width:600px) {
     a{
