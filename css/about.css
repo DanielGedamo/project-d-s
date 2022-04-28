@@ -7,31 +7,26 @@
     text-align: center;
     filter: opacity(40%);
   }
-  .container-style {
+.container-style {
     margin-bottom: 10vh;
     margin-top: 2vh;
     text-align: center;
     background-color: rgba(232, 194, 81, 0.112);
   }
-   .container.nav-inside { 
+.container.nav-inside { 
       display: flex;
       justify-content: space-between;
       font-size: xx-large;
       margin-bottom: -13vh;
       color: #000000;
   }
-  a {
+a {
     color: #000000;
-  
     text-decoration: none;
     font-size: xx-large;
   }
   
-  .footer-div {
-    height: 10vh;
-    background-color: rgba(101, 100, 100, 0.516);
-  }
-  .row-aboutus{
+.row-aboutus{
     border: 2px dotted black;  
 }
 
@@ -48,5 +43,13 @@
     transition: all;
     animation-name: side-by-side;
     animation-duration: 5s;
+}
+.footer-div {
+    height: 10vh;
+    background-color: rgba(101, 100, 100, 0.516);
+
+}
+.social{
+    ךסדר את הפוטר
 }
 
