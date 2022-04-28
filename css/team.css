@@ -1,3 +1,54 @@
+.header-div {
+    height: 20vh;
+    background-image: url(/images/headerimg.jpg);
+    background-size: cover;
+    background-position-y: center;
+    text-align: center;
+    filter: opacity(100%);
+  }
+.container.nav-inside { 
+      display: flex;
+      justify-content: space-between;
+      font-size: xx-large;
+      margin-bottom: -13vh;
+      color: #000000;
+  }
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: xx-large;
+  }
+
+.container-style {
+    margin-bottom: 10vh;
+    margin-top: 2vh;
+    background-color: rgba(232, 194, 81, 0.112);
+  }
+
+.img-style{
+    
+    width: 30%;
+    animation-duration: 10s;
+    animation-name: globe-pic;
+    transform: rotate(360deg);
+    
+}
+@keyframes globe-pic {
+    from{transform: rotateY(0) ;background-image: url(/images/globe.jpg);}
+    to{transform: rotateY(360deg);background-image: url(/images/back4.jpg);}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 .footer-div {
     min-height: 10vh;
     background-color: rgba(101, 100, 100, 0.516);
