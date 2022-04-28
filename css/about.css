@@ -8,9 +8,10 @@
     filter: opacity(40%);
   }
   .container-style {
-    margin-bottom: 12vh;
-    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-top: 2vh;
     text-align: center;
+    background-color: rgba(232, 194, 81, 0.112);
   }
    .container.nav-inside { 
       display: flex;
@@ -31,7 +32,7 @@
     background-color: rgba(101, 100, 100, 0.516);
   }
   .row-aboutus{
-    border: 2px solid black;  
+    border: 2px dotted black;  
 }
 
 @keyframes side-by-side {
@@ -40,6 +41,10 @@
     
 }
 .col-aboutus{
+    display: flex;
+    align-items: center;
+}
+.img-animation{
     transition: all;
     animation-name: side-by-side;
     animation-duration: 5s;
