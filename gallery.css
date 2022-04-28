@@ -27,15 +27,29 @@ img:hover{
     filter: opacity(40%);
   
 }
-.footer-div{
-    height: 10vh;
-    background-color: rgba(101, 100, 100, 0.516);
 
-}
 .container-style{
     margin-bottom: 10vh;
     margin-top: 2vh;
     text-align: center;
     background-color: rgba(232, 194, 81, 0.112);
 
+}
+.footer-div {
+    min-height: 10vh;
+    background-color: rgba(101, 100, 100, 0.516);
+    text-align: center;
+
+}
+.fa-footer{
+    font-size: large;
+}
+@media screen and (max-width: 600px) {
+    .footer-div {
+        min-height: 10vh;
+        background-color: rgba(101, 100, 100, 0.516);
+        text-align: center;
+        position: sticky;
+    
+    }
 }

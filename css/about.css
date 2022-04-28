@@ -45,11 +45,20 @@ a {
     animation-duration: 5s;
 }
 .footer-div {
-    height: 10vh;
+    min-height: 10vh;
     background-color: rgba(101, 100, 100, 0.516);
+    text-align: center;
 
 }
-.social{
-    ךסדר את הפוטר
+.fa-footer{
+    font-size: large;
 }
-
+@media screen and (max-width: 600px) {
+    .footer-div {
+        min-height: 10vh;
+        background-color: rgba(101, 100, 100, 0.516);
+        text-align: center;
+        position: sticky;
+    
+    }
+}
