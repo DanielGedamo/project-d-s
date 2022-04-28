@@ -1,5 +1,5 @@
 .header-div {
-  height: 20vh;
+  height: 21vh;
   background-image: url(images/headerimg.jpg);
   background-size: cover;
   background-position-y: center;
@@ -16,11 +16,7 @@
     justify-content: space-between;
     font-size: xx-large;
     margin-bottom: -13vh;
-<<<<<<< HEAD
-    color: #000000;
-=======
     color: #000000;  
->>>>>>> af807316d88c6f008ac415bac31c140d1811f558
 }
 a {
   color: #000000;
@@ -41,10 +37,11 @@ a {
     filter: blur(3px);
 }
 #list-of-Countries{
-  height: 7vh;
+  height: 100%;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  
+  justify-content: space-around; 
   background-color:rgba(232, 194, 81, 0.112);
 }
 
@@ -81,17 +78,25 @@ a {
 }
 .main-text{
   font-size: 8vh;
-    margin: 65px;
+    margin: 18px;
     
 }
 
 @media screen and (max-width:600px) {
     a{
-        font-size: small;
+        font-size: x-small;
     }
     .main-text{
       margin-right: 60px;
       font-size: 3vh;
 
+    }
+    #list-of-Countries{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      
+      justify-content: space-around; 
+      background-color:rgba(232, 194, 81, 0.112);
     }
 }
