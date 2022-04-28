@@ -1,6 +1,55 @@
-.row-aboutus{
-    border: 2px solid black;
+
+.header-div {
+    height: 20vh;
+    background-image: url(/images/headerimg.jpg);
+    background-size: cover;
+    background-position-y: center;
+    text-align: center;
+    filter: opacity(40%);
+  }
+.container-style {
+    margin-bottom: 10vh;
+    margin-top: 2vh;
+    text-align: center;
+    background-color: rgba(232, 194, 81, 0.112);
+  }
+.container.nav-inside { 
+      display: flex;
+      justify-content: space-between;
+      font-size: xx-large;
+      margin-bottom: -13vh;
+      color: #000000;
+  }
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: xx-large;
+  }
   
+.row-aboutus{
+    border: 2px dotted black;  
 }
-.col-aboutus{   
+
+@keyframes side-by-side {
+    from{transform: translateX(-100vw);}
+    to{transform: translatex(0);}
+    
 }
+.col-aboutus{
+    display: flex;
+    align-items: center;
+}
+.img-animation{
+    transition: all;
+    animation-name: side-by-side;
+    animation-duration: 5s;
+}
+.footer-div {
+    height: 10vh;
+    background-color: rgba(101, 100, 100, 0.516);
+
+}
+.social{
+    ךסדר את הפוטר
+}
+

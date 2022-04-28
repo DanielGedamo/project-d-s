@@ -33,8 +33,9 @@ img:hover{
 
 }
 .container-style{
-    margin-bottom: 12vh;
-    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-top: 2vh;
     text-align: center;
+    background-color: rgba(232, 194, 81, 0.112);
 
 }

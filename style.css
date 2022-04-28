@@ -16,18 +16,17 @@
     justify-content: space-between;
     font-size: xx-large;
     margin-bottom: -13vh;
+<<<<<<< HEAD
+    color: #000000;
+=======
     color: #000000;  
+>>>>>>> af807316d88c6f008ac415bac31c140d1811f558
 }
 a {
   color: #000000;
 
   text-decoration: none;
   font-size: xx-large;
-}
-.home-style {
-  height: 100%;
-  width: 100%;
-  background-color: black;
 }
 
 .footer-div {
