@@ -4,11 +4,7 @@
   background-size: cover;
   background-position-y: center;
   text-align: center;
-<<<<<<< HEAD
   
-=======
-  filter: opacity(90%);
->>>>>>> 4d3265c078b57d55adeb69ead6289b8cba69f9ac
 }
 .container-style {
   margin-bottom: 12vh;
@@ -84,8 +80,12 @@ a {
     margin : 18px;
     
 }
-
-@media screen and (max-width:600px) {
+.footer-div {
+  min-height: 10vh;
+  background-color: rgba(101, 100, 100, 0.516);
+  text-align: center;
+}
+ @media screen and (max-width:600px) {
     a{
         font-size: x-small;
     }
@@ -109,6 +109,7 @@ a {
       margin-bottom: -13vh;
       color: #000000;  
   }
-  
-  
+  .footer-div {
+    display: block;
+  }
 }
