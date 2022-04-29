@@ -24,32 +24,25 @@ a {
     text-decoration: none;
     font-size: xx-large;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer-div {
+  .contact-links{
+    font-size: large;
+    color: rgb(114, 95, 216);
+  }
+  .side-pic{
+    background-image: url(/images/morocco.webp);
+    height: 100vh;
+    width: 100vh;
+  }
+  .main-div{
+    height: 100vh;
+    background-color: rgba(232, 194, 81, 0.112);
+  }
+  #text-div{
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  .footer-div {
     min-height: 10vh;
     background-color: rgba(101, 100, 100, 0.516);
     text-align: center;
@@ -58,12 +51,38 @@ a {
 .fa-footer{
     font-size: large;
 }
-@media screen and (max-width: 600px) {
-    .footer-div {
-        min-height: 10vh;
-        background-color: rgba(101, 100, 100, 0.516);
-        text-align: center;
-        position: sticky;
-    
+  
+  @media screen  and(max-width:600px) {
+    .side-pic{
+      display: none;
+      
+    }  
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-size: x-small;
     }
-}
+    .container.nav-inside { 
+      display: flex;
+      justify-content: center;
+      font-size: xx-small;
+      margin-bottom: -10vh;
+      color: #000000;  
+     }
+    
+  .footer-div {
+      min-height: 10vh;
+      background-color: rgba(101, 100, 100, 0.516);
+      text-align: center;
+      position: sticky;
+      
+  
+  }
+  .fa-footer{
+      font-size: large;
+  }
+    
+  
+  }
+  
+  
