@@ -96,7 +96,16 @@ a {
       width: 100%;
       display: flex;
       
-      justify-content: space-around; 
+      justify-content: center;
       background-color:rgba(232, 194, 81, 0.112);
     }
+    .container.nav-inside { 
+      display: flex;
+      justify-content: center;
+      font-size: xx-large;
+      margin-bottom: -13vh;
+      color: #000000;  
+  }
+  
+  
 }
