@@ -1,6 +1,7 @@
 .fa-style{
     font-size:xx-large;
     color: black;
+    
 }
 .fa:hover{
     color: red;
@@ -13,6 +14,7 @@
 }
 img{
     width:95%;
+    transition: width 3s;
 }
 img:hover{
     width: 105%; 
@@ -24,7 +26,7 @@ img:hover{
     background-size: cover;
     background-position-y: center;
     text-align: center;
-    filter: opacity(40%);
+    filter: opacity(90%);
   
 }
 
