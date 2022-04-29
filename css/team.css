@@ -4,7 +4,7 @@
     background-size: cover;
     background-position-y: center;
     text-align: center;
-    filter: opacity(100%);
+    filter: opacity(90%);
   }
 .container.nav-inside { 
       display: flex;
@@ -23,31 +23,49 @@ a {
     margin-bottom: 10vh;
     margin-top: 2vh;
     background-color: rgba(232, 194, 81, 0.112);
+    text-align: center;
+    height: 70vh;
+    
   }
 
-.img-style{
+.img-globe{
     
-    width: 30%;
-    animation-duration: 10s;
+    width: 25vh;
+    height: 30vh;
+    position: absolute;
+    animation-duration: 5s;
     animation-name: globe-pic;
     transform: rotate(360deg);
+    z-index: 1;
+    margin-bottom: 5vh;
+    filter: drop-shadow(10px 10px 10px rgba(8, 49, 75, 0.758));
+}
+    
+
+.img-style-personal{
+    width: 25vh;
+    height: 30vh;
+    position: absolute;
+    animation-duration: 5s;
+    animation-name: per-pic;
+    transform: rotate(360deg);
+    filter: opacity(0);
+    z-index: 2;
+    margin-bottom: 5vh;
+    
     
 }
 @keyframes globe-pic {
-    from{transform: rotateY(0) ;background-image: url(/images/globe.jpg);}
-    to{transform: rotateY(360deg);background-image: url(/images/back4.jpg);}
-    
+    from{transform: rotateY(0);}
+    to{transform: rotateY(360deg);}
 }
-
-
-
-
-
-
-
-
-
-
+@keyframes per-pic {
+    from{transform: rotateY(0); filter: opacity(0);}
+    to{transform: rotateY(360deg); filter: opacity(100);}
+}
+.col-style{
+    margin-top:45vh;
+}
 
 .footer-div {
     min-height: 10vh;

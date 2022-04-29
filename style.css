@@ -4,7 +4,11 @@
   background-size: cover;
   background-position-y: center;
   text-align: center;
+<<<<<<< HEAD
   
+=======
+  filter: opacity(90%);
+>>>>>>> 4d3265c078b57d55adeb69ead6289b8cba69f9ac
 }
 .container-style {
   margin-bottom: 12vh;
