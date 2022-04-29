@@ -1,29 +1,30 @@
-.header-div {
-    height: 20vh;
+  .header-div {
+    height: 22vh;
     background-image: url(/images/headerimg.jpg);
     background-size: cover;
     background-position-y: center;
     text-align: center;
     filter: opacity(90%);
   }
-.container-style {
-    margin-bottom: 10vh;
-    margin-top: 2vh;
+  .container-style {
+    margin-bottom: 11vh;
+    margin-top: 1vh;
     text-align: center;
     background-color: rgba(232, 194, 81, 0.112);
   }
-.container.nav-inside { 
-      display: flex;
-      justify-content: space-between;
-      font-size: xx-large;
-      margin-bottom: -13vh;
-      color: #000000;
+  .container.nav-inside { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -13vh;
+    color: #000000;
+    background-color: rgba(101, 100, 100, 0.516);
   }
-a {
+  a {
     color: #000000;
     text-decoration: none;
-    font-size: xx-large;
+    font-size: large;
   }
+  
   .contact-links{
     font-size: large;
     color: rgb(114, 95, 216);
@@ -33,10 +34,12 @@ a {
     height: 100vh;
     width: 100vh;
   }
+  /* 
   .main-div{
     height: 100vh;
     background-color: rgba(232, 194, 81, 0.112);
   }
+  */
   #text-div{
     margin-left: 65px;
     margin-top: 20px;

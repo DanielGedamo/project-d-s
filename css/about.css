@@ -1,6 +1,6 @@
 
 .header-div {
-    height: 20vh;
+    height: 22vh;
     background-image: url(/images/headerimg.jpg);
     background-size: cover;
     background-position-y: center;
@@ -8,23 +8,25 @@
     filter: opacity(90%);
   }
 .container-style {
-    margin-bottom: 10vh;
-    margin-top: 2vh;
+    margin-bottom: 11vh;
+    margin-top: 1vh;
     text-align: center;
     background-color: rgba(232, 194, 81, 0.112);
   }
 .container.nav-inside { 
       display: flex;
       justify-content: space-between;
-      font-size: xx-large;
       margin-bottom: -13vh;
       color: #000000;
+      background-color: rgba(101, 100, 100, 0.516);
   }
 a {
     color: #000000;
     text-decoration: none;
-    font-size: xx-large;
+    font-size:large;
   }
+
+
   
 .row-aboutus{
     border: 2px dotted black;  
@@ -44,6 +46,8 @@ a {
     animation-name: side-by-side;
     animation-duration: 5s;
 }
+
+
 .footer-div {
     min-height: 10vh;
     background-color: rgba(101, 100, 100, 0.516);

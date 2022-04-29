@@ -1,7 +1,6 @@
 .fa-style{
     font-size:xx-large;
-    color: black;
-    
+    color: black; 
 }
 
 .fa:hover{
@@ -21,36 +20,35 @@ img:hover{
     width: 105%; 
 }
 
-.header-div{
-    height: 21vh;
-    background-image: url(images/headerimg.jpg);
+.header-div {
+    height: 22vh;
+    background-image: url(/images/headerimg.jpg);
     background-size: cover;
     background-position-y: center;
     text-align: center;
-    
-  
-}
-a {
-    color: #000000;
-  
-    text-decoration: none;
-    font-size: xx-large;
+    filter: opacity(90%);
   }
-
-.container-style{
-    margin-bottom: 10vh;
-    margin-top: 2vh;
+  .container-style {
+    margin-bottom: 11vh;
+    margin-top: 1vh;
     text-align: center;
     background-color: rgba(232, 194, 81, 0.112);
-
-}
-.container.nav-inside { 
+  }
+  .container.nav-inside { 
     display: flex;
     justify-content: space-between;
-    font-size: xx-large;
     margin-bottom: -13vh;
-    color: #000000;  
-}
+    color: #000000;
+    background-color: rgba(101, 100, 100, 0.516);
+  }
+  a {
+    color: #000000;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+
+
 .footer-div {
     min-height: 10vh;
     background-color: rgba(101, 100, 100, 0.516);
