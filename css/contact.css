@@ -24,6 +24,31 @@ a {
     text-decoration: none;
     font-size: xx-large;
   }
+  .contact-links{
+    font-size: xx-large;
+    color: rgb(148, 134, 240);
+  }
+  .side-pic{
+    background-image: url(/images/morocco.webp);
+    height: 100vh;
+    width: 100vh;
+  }
+  .main-div{
+    height: 100vh;
+  }
+  @media screen  and(max-width:600px) {
+    .side-logo{
+      background-image: url(/images/morocco.webp);
+      height: 100vh;
+      width: 100vh;
+      display: none;
+    }  
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-size: x-small;
+    }
+  }
 
 
 
