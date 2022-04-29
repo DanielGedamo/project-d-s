@@ -1,3 +1,6 @@
+:root
+
+
 .header-div {
     height: 20vh;
     background-image: url(/images/headerimg.jpg);
@@ -25,6 +28,7 @@ a {
     background-color: rgba(232, 194, 81, 0.112);
     text-align: center;
     height: 70vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
   }
 
@@ -65,7 +69,11 @@ a {
 }
 .col-style{
     margin-top:45vh;
+    border: 2px solid black;
+    border-radius: 10px;
+
 }
+
 
 .footer-div {
     min-height: 10vh;
