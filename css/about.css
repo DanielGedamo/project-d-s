@@ -1,6 +1,7 @@
 body{
     background-color: rgba(232, 194, 81, 0.112);
     font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
   }
 .header-div {
     height: 22vh;

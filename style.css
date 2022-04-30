@@ -1,5 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif;
+  
 }
 .header-div {
   height: 22vh;
@@ -56,6 +57,7 @@ a {
   background-color:rgba(232, 194, 81, 0.112);
   padding-top: 12px;
   border: 2px solid rgb(0, 0, 0);
+  font-weight: bolder; 
 }
 
    
@@ -86,6 +88,7 @@ a {
   animation-iteration-count: infinite;
   font-size: xx-large;
   font-weight: 200px;
+ 
 }
 .main-text{
   font-size: 5vh;
