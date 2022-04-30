@@ -1,3 +1,8 @@
+body{
+    background-color: rgba(232, 194, 81, 0.112);
+    font-family: 'Open Sans', sans-serif;
+  }
+
 .fa-style{
     font-size:xx-large;
     color: black; 
@@ -29,10 +34,9 @@ img:hover{
     filter: opacity(90%);
   }
   .container-style {
-    margin-bottom: 11vh;
+    margin-bottom: 10vh;
     margin-top: 1vh;
     text-align: center;
-    background-color: rgba(232, 194, 81, 0.112);
   }
   .container.nav-inside { 
     display: flex;

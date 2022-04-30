@@ -1,3 +1,9 @@
+body{
+    background-color: rgba(232, 194, 81, 0.112);
+    font-family: 'Open Sans', sans-serif;
+  }
+
+
 .header-div {
     min-height: 22vh;
     background-image: url(/images/headerimg.jpg);
@@ -8,9 +14,10 @@
     
   }
   .container-style {
-    margin-bottom: 11vh;
-    margin-top: 2vh;
-    background-color: rgba(232, 194, 81, 0.112);
+    margin-bottom: 10vh;
+    margin-top: 1vh;
+    margin-top: 2vh; 
+   
   }
   .container.nav-inside { 
     display: flex;
