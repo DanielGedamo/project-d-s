@@ -9,7 +9,6 @@
   .container-style {
     margin-bottom: 11vh;
     margin-top: 1vh;
-    text-align: center;
     background-color: rgba(232, 194, 81, 0.112);
   }
   .container.nav-inside { 
@@ -62,12 +61,11 @@
     to{transform: rotateY(360deg); filter: opacity(100);}
 }
 .col-style{
-    margin-top:45vh;
-    border: 2px solid black;
-    border-radius: 10px;
-
+    margin-top:40vh;
+    margin-bottom: 5vh;
+    border: 2px  dotted black;
+    border-radius: 10%;
 }
-
 
 .footer-div {
     min-height: 10vh;
