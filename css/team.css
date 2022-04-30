@@ -25,10 +25,22 @@ body{
     margin-bottom: -13vh;
     background-color: rgba(101, 100, 100, 0.516);
   }
+  .logo-pic{
+    display: block;
+    background-color: #dda24b;
+    height: 90px;
+    width: 176px;
+  }
   a {
     color: #000000;
     text-decoration: none;
     font-size: medium;
+  }
+  .logo-pic{
+    display: block;
+    background-color: #dda24b;
+    height: 90px;
+    width: 176px;
   }
   
 
@@ -53,7 +65,6 @@ body{
     animation-duration: 5s;
     animation-name: per-pic;
     transform: rotate(360deg);
-    filter: opacity(0);
     z-index: 2;
     margin-bottom: 5vh;
     
@@ -67,6 +78,7 @@ body{
     from{transform: rotateY(0); filter: opacity(0);}
     to{transform: rotateY(360deg); filter: opacity(100);}
 }
+
 .col-style{
     margin-top:40vh;
     margin-bottom: 5vh;
@@ -112,6 +124,9 @@ body{
   .dropdown{
   color: #000000;
   }
+  .logo-pic{
+    margin-left: 100px;
+   }
 
 
 }

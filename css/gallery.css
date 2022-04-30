@@ -45,6 +45,12 @@ img:hover{
     color: #000000;
     background-color: rgba(101, 100, 100, 0.516);
   }
+  .logo-pic{
+    display: block;
+    background-color: #dda24b;
+    height: 90px;
+    width: 176px;
+  }
   a {
     color: #000000;
     text-decoration: none;
@@ -91,6 +97,9 @@ img:hover{
     .dropdown:hover .dropdown-menu{
         display: block;
     }
+    .logo-pic{
+        margin-left: 100px;
+       }
 
 
 

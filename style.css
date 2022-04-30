@@ -22,6 +22,14 @@ body{
   color: #000000;
   background-color: rgba(101, 100, 100, 0.516);
 }
+.logo-pic{
+  display: block;
+  background-color: #dda24b;
+  height: 90px;
+  width: 176px;
+}
+
+  
 a {
   color: #000000;
   text-decoration: none;
@@ -46,6 +54,8 @@ a {
   margin: 0px;
   justify-content: space-around; 
   background-color:rgba(232, 194, 81, 0.112);
+  padding-top: 12px;
+  border: 2px solid bisque;
 }
 
    
@@ -70,7 +80,6 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
   height: 80vh;
   animation-name:main;
   animation-duration:30s;
@@ -79,14 +88,23 @@ a {
   font-weight: 200px;
 }
 .main-text{
-  font-size: 8vh;
-    margin : 18px;
+  font-size: 5vh;
+    margin: 0px;
+    padding: 36px;
+    background-color: rgba(232, 194, 81, 0.112);
+    border: 2px solid bisque;
     
 }
 .footer-div {
   min-height: 10vh;
   background-color: rgba(101, 100, 100, 0.516);
   text-align: center;
+}
+#emty-div{
+  height: 10vh;
+}
+.dropdown{
+  color: rgba(232, 194, 81, 0.112);
 }
 @media screen and (max-width:600px) {
     a{
@@ -103,6 +121,7 @@ a {
       display: flex;
       justify-content: center;
       background-color:rgba(232, 194, 81, 0.112);
+      
     }
     .container.nav-inside { 
       display: flex;
@@ -130,5 +149,28 @@ a {
       text-align: center;
       position: sticky;
   
+  }
+  .container.nav-inside{
+    display: none;
+}
+  .dropdown{
+    color: black;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(101, 100, 100);
+    min-width: 5vh;
+    padding: 2vh 1vh;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+  #empty-div{
+    display: none;
+  }
+  .logo-pic{
+   margin-left: 100px;
   }
 }
