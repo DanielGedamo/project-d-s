@@ -62,6 +62,10 @@ img:hover{
 .fa-footer{
     font-size: large;
 }
+.dropdown{
+    color: rgba(232, 194, 81, 0.112);
+}
+
 @media screen and (max-width: 600px) {
     .footer-div {
         min-height: 10vh;
@@ -70,4 +74,24 @@ img:hover{
         position: sticky;
     
     }
+    .container.nav-inside{
+        display: none;
+    }
+    .dropdown{
+        color: black;
+    }
+    .dropdown-menu{
+        display: none;
+        position: absolute;
+        background-color: rgb(101, 100, 100);
+        min-width: 5vh;
+        padding: 2vh 1vh;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+
+
+
 }
