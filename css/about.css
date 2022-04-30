@@ -1,4 +1,7 @@
-
+body{
+    background-color: rgba(232, 194, 81, 0.112);
+    font-family: 'Open Sans', sans-serif;
+  }
 .header-div {
     height: 22vh;
     background-image: url(/images/headerimg.jpg);
@@ -8,10 +11,9 @@
     filter: opacity(90%);
   }
 .container-style {
-    margin-bottom: 11vh;
+    margin-bottom: 10vh;
     margin-top: 1vh;
     text-align: center;
-    background-color: rgba(232, 194, 81, 0.112);
   }
 .container.nav-inside { 
       display: flex;
@@ -57,12 +59,36 @@ a {
 .fa-footer{
     font-size: large;
 }
+ 
+.dropdown{
+    color: rgba(232, 194, 81, 0.112);
+}
 @media screen and (max-width: 600px) {
     .footer-div {
         min-height: 10vh;
         background-color: rgba(101, 100, 100, 0.516);
         text-align: center;
         position: sticky;
-    
+        }
+    .container.nav-inside{
+        display: none;
     }
+    .dropdown{
+        color: black;
+    }
+    .dropdown-menu{
+        display: none;
+        position: absolute;
+        background-color: rgb(101, 100, 100);
+        min-width: 5vh;
+        padding: 2vh 1vh;
+        z-index: 1;
+    }
+    .dropdown:hover .dropdown-menu{
+        display: block;
+    }
+
+
+
+
 }
