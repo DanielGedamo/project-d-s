@@ -98,21 +98,20 @@ body{
     .container.nav-inside{
       display: none;
   }
-  .dropdown{
-      color: black;
-  }
   .dropdown-menu{
       display: none;
       position: absolute;
       background-color: rgb(101, 100, 100);
       min-width: 5vh;
       padding: 2vh 1vh;
-      z-index: 1;
+      z-index: 3;
   }
   .dropdown:hover .dropdown-menu{
       display: block;
   }
-
+  .dropdown{
+  color: #000000;
+  }
 
 
 }
