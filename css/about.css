@@ -33,6 +33,7 @@ a {
     text-decoration: none;
     font-size:large;
   }
+ 
 
 
   
@@ -68,7 +69,9 @@ a {
  
 .dropdown{
     color: rgba(232, 194, 81, 0.112);
+
 }
+
 @media screen and (max-width: 600px) {
     .footer-div {
         min-height: 10vh;
@@ -96,8 +99,10 @@ a {
     .logo-pic{
         margin-left: 100px;
        }
+       
 
 
-
+    
+    
 
 }

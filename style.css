@@ -55,7 +55,7 @@ a {
   justify-content: space-around; 
   background-color:rgba(232, 194, 81, 0.112);
   padding-top: 12px;
-  border: 2px solid bisque;
+  border: 2px solid rgb(0, 0, 0);
 }
 
    
@@ -92,7 +92,7 @@ a {
     margin: 0px;
     padding: 36px;
     background-color: rgba(232, 194, 81, 0.112);
-    border: 2px solid bisque;
+    
     
 }
 .footer-div {
@@ -100,11 +100,12 @@ a {
   background-color: rgba(101, 100, 100, 0.516);
   text-align: center;
 }
-#emty-div{
+#empty-div{
   height: 10vh;
 }
 .dropdown{
   color: rgba(232, 194, 81, 0.112);
+  background-color:rgba(232, 194, 81, 0.112) ;
 }
 @media screen and (max-width:600px) {
     a{

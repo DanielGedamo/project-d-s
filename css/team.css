@@ -1,132 +1,132 @@
-body{
-    background-color: rgba(232, 194, 81, 0.112);
-    font-family: 'Open Sans', sans-serif;
-  }
-
+body {
+  background-color: rgba(232, 194, 81, 0.112);
+  font-family: "Open Sans", sans-serif;
+}
 
 .header-div {
-    min-height: 22vh;
-    background-image: url(/images/headerimg.jpg);
-    background-size: cover;
-    background-position-y: center;
-    text-align: center;
-    filter: opacity(90%);
-    
-  }
-  .container-style {
-    margin-bottom: 10vh;
-    margin-top: 1vh;
-    margin-top: 2vh; 
-   
-  }
-  .container.nav-inside { 
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: -13vh;
-    background-color: rgba(101, 100, 100, 0.516);
-  }
-  .logo-pic{
-    display: block;
-    background-color: #dda24b;
-    height: 90px;
-    width: 176px;
-  }
-  a {
-    color: #000000;
-    text-decoration: none;
-    font-size: medium;
-  }
-  .logo-pic{
-    display: block;
-    background-color: #dda24b;
-    height: 90px;
-    width: 176px;
-  }
-  
-
-.img-globe{
-    
-    width: 25vh;
-    height: 30vh;
-    position: absolute;
-    animation-duration: 5s;
-    animation-name: globe-pic;
-    transform: rotate(360deg);
-    z-index: 1;
-    margin-bottom: 5vh;
-    filter: drop-shadow(10px 10px 10px rgba(8, 49, 75, 0.758));
+  min-height: 22vh;
+  background-image: url(/images/headerimg.jpg);
+  background-size: cover;
+  background-position-y: center;
+  text-align: center;
+  filter: opacity(90%);
 }
-    
+.container-style {
+  margin-bottom: 10vh;
+  margin-top: 1vh;
+  margin-top: 2vh;
+}
+.container.nav-inside {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -13vh;
+  background-color: rgba(101, 100, 100, 0.516);
+}
+.logo-pic {
+  display: block;
+  background-color: #dda24b;
+  height: 90px;
+  width: 176px;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  font-size: medium;
+}
+.logo-pic {
+  display: block;
+  background-color: #dda24b;
+  height: 90px;
+  width: 176px;
+}
 
-.img-style-personal{
-    width: 25vh;
-    height: 30vh;
-    position: absolute;
-    animation-duration: 5s;
-    animation-name: per-pic;
-    transform: rotate(360deg);
-    z-index: 2;
-    margin-bottom: 5vh;
-    
-    
+.img-globe {
+  width: 25vh;
+  height: 30vh;
+  position: absolute;
+  animation-duration: 5s;
+  animation-name: globe-pic;
+  transform: rotate(360deg);
+  z-index: 1;
+  margin-bottom: 5vh;
+  filter: drop-shadow(10px 10px 10px rgba(8, 49, 75, 0.758));
+}
+
+.img-style-personal {
+  width: 25vh;
+  height: 30vh;
+  position: absolute;
+  animation-duration: 5s;
+  animation-name: per-pic;
+  transform: rotate(360deg);
+  z-index: 2;
+  margin-bottom: 5vh;
 }
 @keyframes globe-pic {
-    from{transform: rotateY(0);}
-    to{transform: rotateY(360deg);}
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 @keyframes per-pic {
-    from{transform: rotateY(0); filter: opacity(0);}
-    to{transform: rotateY(360deg); filter: opacity(100);}
+  from {
+    transform: rotateY(0);
+    filter: opacity(0);
+  }
+  to {
+    transform: rotateY(360deg);
+    filter: opacity(100);
+  }
 }
 
-.col-style{
-    margin-top:40vh;
-    margin-bottom: 5vh;
-    border: 2px  dotted black;
-    border-radius: 10%;
+.col-style {
+  margin-top: 40vh;
+  margin-bottom: 5vh;
+  border: 2px dotted black;
+  border-radius: 10%;
 }
 
 .footer-div {
-    min-height: 10vh;
-    background-color: rgba(101, 100, 100, 0.516);
-    text-align: center;
-
+  min-height: 10vh;
+  background-color: rgba(101, 100, 100, 0.516);
+  text-align: center;
 }
-.fa-footer{
-    font-size: large;
+.fa-footer {
+  font-size: large;
 }
-.dropdown{
+.dropdown {
   color: rgba(232, 194, 81, 0.112);
 }
 
-@media screen and (max-width: 600px) {
-    .footer-div {
-        min-height: 10vh;
-        background-color: rgba(101, 100, 100, 0.516);
-        text-align: center;
-        position: sticky;
-    
-    }
-    .container.nav-inside{
-      display: none;
-  }
-  .dropdown-menu{
-      display: none;
-      position: absolute;
-      background-color: rgb(101, 100, 100);
-      min-width: 5vh;
-      padding: 2vh 1vh;
-      z-index: 3;
-  }
-  .dropdown:hover .dropdown-menu{
-      display: block;
-  }
-  .dropdown{
-  color: #000000;
-  }
-  .logo-pic{
-    margin-left: 100px;
-   }
 
+@media screen and (max-width: 600px) {
+  .footer-div {
+    min-height: 10vh;
+    background-color: rgba(101, 100, 100, 0.516);
+    text-align: center;
+    position: sticky;
+  }
+  .container.nav-inside {
+    display: none;
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(101, 100, 100);
+    min-width: 5vh;
+    padding: 2vh 1vh;
+    z-index: 3;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown {
+    color: #000000;
+  }
+  .logo-pic {
+    margin-left: 100px;
+  }
 
 }

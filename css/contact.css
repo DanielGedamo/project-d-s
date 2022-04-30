@@ -68,6 +68,9 @@
     color: rgba(232, 194, 81, 0.112);
   }
   
+    
+  
+  
 @media screen  and(max-width:600px) {
     .side-pic{
       display: none;
