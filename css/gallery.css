@@ -48,7 +48,7 @@ img:hover {
 .container.nav-inside {
     display: flex;
     justify-content: space-between;
-    margin-bottom: -13vh;
+    margin-bottom: -21vh;
     color: #000000;
     background-color: #de9323c7;
   }
@@ -57,7 +57,7 @@ img:hover {
         background-color: #dda24b;
         height: 69px;
         width: 125px;
-        margin-top: -5%;
+        
       }
       
   a {

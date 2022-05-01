@@ -20,7 +20,7 @@ body {
 .container.nav-inside {
   display: flex;
   justify-content: space-between;
-  margin-bottom: -13vh;
+  margin-bottom: -21vh;
   background-color: #de9323c7;
 }
 
@@ -34,7 +34,7 @@ a {
   background-color: #dda24b;
   height: 69px;
   width: 125px;
-  margin-top: -5%;
+  
 }
 .img-globe {
   width: 25vh;
