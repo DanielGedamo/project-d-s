@@ -50,7 +50,7 @@ img:hover {
     justify-content: space-between;
     margin-bottom: -13vh;
     color: #000000;
-    background-color: rgba(101, 100, 100, 0.516);
+    background-color: #de9323c7;
 }
 
 .logo-pic {
@@ -68,7 +68,7 @@ a {
 
 .footer-div {
     min-height: 10vh;
-    background-color: rgba(101, 100, 100, 0.516);
+    background-color:#de9323c7;
     text-align: center;
 
 }
