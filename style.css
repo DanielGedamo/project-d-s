@@ -25,10 +25,6 @@ body {
   color: black;
   background-color: rgba(101, 100, 100, 0.516);
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 7af9da4a6f3b95472422392e68e10c4b16d62385
 .logo-pic {
   display: block;
   background-color: #dda24b;
@@ -197,17 +193,11 @@ a {
   #empty-div {
     display: none;
   }
-<<<<<<< HEAD
   .logo-pic {
     display: block;
     background-color: #dda24b;
     height: 69px;
     width: 125px;
     margin-top: 21%;
-=======
-
-  .logo-pic {
-    margin-left: 20px;
-  }
->>>>>>> 7af9da4a6f3b95472422392e68e10c4b16d62385
+}
 }

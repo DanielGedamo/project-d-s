@@ -51,7 +51,6 @@ img:hover {
     margin-bottom: -13vh;
     color: #000000;
     background-color: rgba(101, 100, 100, 0.516);
-<<<<<<< HEAD
   }
     .logo-pic {
         display: block;
@@ -62,18 +61,6 @@ img:hover {
       }
       
   a {
-=======
-}
-
-.logo-pic {
-    display: block;
-    background-color: #dda24b;
-    height: 90px;
-    width: 176px;
-}
-
-a {
->>>>>>> 7af9da4a6f3b95472422392e68e10c4b16d62385
     color: #000000;
     text-decoration: none;
 }
@@ -123,7 +110,6 @@ a {
     .dropdown:hover .dropdown-menu {
         display: block;
     }
-<<<<<<< HEAD
     .logo-pic {
         display: block;
         background-color: #dda24b;
@@ -132,13 +118,6 @@ a {
         margin-top: 21%;
     }
       
-=======
-
-    .logo-pic {
-        margin-left: 100px;
-    }
-
->>>>>>> 7af9da4a6f3b95472422392e68e10c4b16d62385
 
 
 }
