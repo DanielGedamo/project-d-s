@@ -1,7 +1,8 @@
 body {
   background-color: rgba(232, 194, 81, 0.112);
-  font-family: "Open Sans", sans-serif;
-  font-weight: bolder;
+  font-family: 'Coda Caption';font-size: 22px;
+ 
+  
 }
 
 .header-div {
@@ -82,7 +83,7 @@ a {
   margin-top: 40vh;
   margin-bottom: 5vh;
   border: 2px dotted black;
-  border-radius: 10%;
+  
 }
 
 .footer-div {
@@ -94,7 +95,7 @@ a {
   font-size: large;
 }
 .dropdown {
-  color: rgba(232, 194, 81, 0.112);
+ display: none;
 }
 
 
@@ -120,7 +121,7 @@ a {
     display: block;
   }
   .dropdown {
-    color: #000000;
+    display: block;
   }
   .logo-pic {
     display: block;

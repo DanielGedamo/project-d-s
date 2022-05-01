@@ -1,7 +1,7 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Coda Caption';font-size: 22px;
   background-color: rgba(232, 194, 81, 0.112);
-  font-weight: bolder;
+  
  
 }
 
@@ -102,7 +102,7 @@ a {
   padding: 36px;
   background-color: rgba(232, 194, 81, 0.112);
   font-family: 'Noto Sans Hebrew', sans-serif;
-font-family: 'Square Peg', cursive;
+  font-family: 'Square Peg', cursive;
 
 
 }
@@ -113,8 +113,8 @@ font-family: 'Square Peg', cursive;
 }
 
 .dropdown {
-  color: rgba(232, 194, 81, 0.112);
-  background-color: rgba(232, 194, 81, 0.112);
+  display: none;
+
 }
 
 .footer-div {
@@ -159,7 +159,7 @@ font-family: 'Square Peg', cursive;
   }
 
   .dropdown {
-    color: black;
+    display: block;
   }
 
   .dropdown-menu {
