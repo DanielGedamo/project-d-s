@@ -16,7 +16,7 @@ body {
 .gallery-pic {
     width: 95%;
     filter: blur(3px);
-    transition: width 3s;
+    transition: width 1s;
 }
 
 .gallery-pic:hover {
