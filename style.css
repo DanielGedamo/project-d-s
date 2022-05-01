@@ -19,15 +19,15 @@ body{
 .container.nav-inside { 
   display: flex;
   justify-content: space-between;
-  margin-bottom: -13vh;
+  margin-bottom: -11vh;
   color: #000000;
   background-color: rgba(101, 100, 100, 0.516);
 }
 .logo-pic{
   display: block;
   background-color: #dda24b;
-  height: 90px;
-  width: 176px;
+  height: 58px;
+  width: 95px;
 }
 
   
@@ -110,6 +110,15 @@ a {
   color: rgba(232, 194, 81, 0.112);
   background-color:rgba(232, 194, 81, 0.112) ;
 }
+.footer-div {
+  min-height: 10vh;
+  background-color: rgba(101, 100, 100, 0.516);
+  text-align: center;
+
+}
+.fa-footer{
+  font-size: large;
+}
 @media screen and (max-width:600px) {
     a{
         font-size: x-small;
@@ -135,18 +144,10 @@ a {
       color: #000000;  
   }
 
-}
 
-.footer-div {
-  min-height: 10vh;
-  background-color: rgba(101, 100, 100, 0.516);
-  text-align: center;
 
-}
-.fa-footer{
-  font-size: large;
-}
-@media screen and (max-width: 600px) {
+
+/* @media screen and (max-width: 600px) { */
   .footer-div {
       min-height: 10vh;
       background-color: rgba(101, 100, 100, 0.516);
@@ -177,4 +178,5 @@ a {
   .logo-pic{
    margin-left: 100px;
   }
+}
 }
