@@ -15,8 +15,8 @@ body {
 
 .gallery-pic {
     width: 95%;
-    transition: width 3s;
     filter: blur(3px);
+    transition: width 3s;
 }
 
 .gallery-pic:hover {
@@ -120,11 +120,12 @@ nav:hover{
         width: 125px;
         
     }
-      
-    .thumbnail {
+    .gallery-pic:hover {
+        width: 105%;
+        
+    }
+    .gallery-pic {
         filter: blur(0px);
     }
-
-}   .gallery-pic:hover {
-    width: 105%;
-}
+    
+} 
