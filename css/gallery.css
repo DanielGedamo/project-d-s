@@ -1,7 +1,6 @@
 body {
     background-color: rgba(232, 194, 81, 0.112);
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bolder;
+    font-family: 'Coda Caption';font-size: 22px;
 }
 
 .fa-style {
@@ -52,17 +51,24 @@ img:hover {
     color: #000000;
     background-color: #de9323c7;
   }
-    .logo-pic {
-        display: block;
-        background-color: #dda24b;
-        height: 69px;
-        width: 125px;
+.logo-pic {
+    display: block;
+    background-color: #dda24b;
+    height: 69px;
+    width: 125px;
         
-      }
+    }
       
-  a {
+a {
     color: #000000;
     text-decoration: none;
+}
+.nav{
+    width:13vw;
+    height: 9vh;
+}
+nav:hover{
+    display: none;
 }
 
 
@@ -78,7 +84,8 @@ img:hover {
 }
 
 .dropdown {
-    color: rgba(232, 194, 81, 0.112);
+    display: none;
+
 }
 
 @media screen and (max-width: 600px) {
@@ -95,8 +102,9 @@ img:hover {
     }
 
     .dropdown {
-        color: black;
+        display: block;
     }
+
 
     .dropdown-menu {
         display: none;
