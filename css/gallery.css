@@ -1,29 +1,33 @@
-body{
+body {
     background-color: rgba(232, 194, 81, 0.112);
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-  }
-
-.fa-style{
-    font-size:xx-large;
-    color: black; 
 }
 
-.fa:hover{
+.fa-style {
+    font-size: xx-large;
+    color: black;
+}
+
+.fa:hover {
     color: red;
 }
-.thumbnail{
+
+.thumbnail {
     filter: blur(3px);
 }
-.thumbnail:hover{
+
+.thumbnail:hover {
     filter: blur(0px);
 }
-img{
-    width:95%;
+
+img {
+    width: 95%;
     transition: width 3s;
 }
-img:hover{
-    width: 105%; 
+
+img:hover {
+    width: 105%;
 }
 
 .header-div {
@@ -33,18 +37,21 @@ img:hover{
     background-position-y: center;
     text-align: center;
     filter: opacity(90%);
-  }
-  .container-style {
+}
+
+.container-style {
     margin-bottom: 10vh;
     margin-top: 1vh;
     text-align: center;
-  }
-  .container.nav-inside { 
+}
+
+.container.nav-inside {
     display: flex;
     justify-content: space-between;
     margin-bottom: -13vh;
     color: #000000;
     background-color: rgba(101, 100, 100, 0.516);
+<<<<<<< HEAD
   }
     .logo-pic {
         display: block;
@@ -55,11 +62,21 @@ img:hover{
       }
       
   a {
+=======
+}
+
+.logo-pic {
+    display: block;
+    background-color: #dda24b;
+    height: 90px;
+    width: 176px;
+}
+
+a {
+>>>>>>> 7af9da4a6f3b95472422392e68e10c4b16d62385
     color: #000000;
     text-decoration: none;
-    font-size: large;
-  }
-  
+}
 
 
 .footer-div {
@@ -68,10 +85,12 @@ img:hover{
     text-align: center;
 
 }
-.fa-footer{
+
+.fa-footer {
     font-size: large;
 }
-.dropdown{
+
+.dropdown {
     color: rgba(232, 194, 81, 0.112);
 }
 
@@ -81,15 +100,18 @@ img:hover{
         background-color: rgba(101, 100, 100, 0.516);
         text-align: center;
         position: sticky;
-    
+
     }
-    .container.nav-inside{
+
+    .container.nav-inside {
         display: none;
     }
-    .dropdown{
+
+    .dropdown {
         color: black;
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         display: none;
         position: absolute;
         background-color: rgb(101, 100, 100);
@@ -97,9 +119,11 @@ img:hover{
         padding: 2vh 1vh;
         z-index: 1;
     }
-    .dropdown:hover .dropdown-menu{
+
+    .dropdown:hover .dropdown-menu {
         display: block;
     }
+<<<<<<< HEAD
     .logo-pic {
         display: block;
         background-color: #dda24b;
@@ -108,6 +132,13 @@ img:hover{
         margin-top: 21%;
     }
       
+=======
+
+    .logo-pic {
+        margin-left: 100px;
+    }
+
+>>>>>>> 7af9da4a6f3b95472422392e68e10c4b16d62385
 
 
 }

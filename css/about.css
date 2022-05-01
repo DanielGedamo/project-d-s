@@ -1,8 +1,9 @@
-body{
+body {
     background-color: rgba(232, 194, 81, 0.112);
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
-  }
+}
+
 .header-div {
     height: 22vh;
     background-image: url(/images/headerimg.jpg);
@@ -10,48 +11,56 @@ body{
     background-position-y: center;
     text-align: center;
     filter: opacity(90%);
-  }
+}
+
 .container-style {
     margin-bottom: 10vh;
     margin-top: 1vh;
     text-align: center;
-  }
-.container.nav-inside { 
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: -13vh;
-      color: #000000;
-      background-color: rgba(101, 100, 100, 0.516);
-  }
-  .logo-pic{
+}
+
+.container.nav-inside {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -13vh;
+    color: #000000;
+    background-color: rgba(101, 100, 100, 0.516);
+}
+
+.logo-pic {
     display: block;
     background-color: #dda24b;
     height: 90px;
     width: 176px;
-  }
+}
+
 a {
     color: #000000;
     text-decoration: none;
-    font-size:large;
-  }
- 
+}
 
 
-  
-.row-aboutus{
-    border: 2px dotted black;  
+.row-aboutus {
+    border: 2px dotted black;
 }
 
 @keyframes side-by-side {
-    from{transform: translateX(-100vw);}
-    to{transform: translatex(0);}
-    
+    from {
+        transform: translateX(-100vw);
+    }
+
+    to {
+        transform: translatex(0);
+    }
+
 }
-.col-aboutus{
+
+.col-aboutus {
     display: flex;
     align-items: center;
 }
-.img-animation{
+
+.img-animation {
     transition: all;
     animation-name: side-by-side;
     animation-duration: 5s;
@@ -64,11 +73,12 @@ a {
     text-align: center;
 
 }
-.fa-footer{
+
+.fa-footer {
     font-size: large;
 }
- 
-.dropdown{
+
+.dropdown {
     color: rgba(232, 194, 81, 0.112);
 
 }
@@ -79,14 +89,17 @@ a {
         background-color: rgba(101, 100, 100, 0.516);
         text-align: center;
         position: sticky;
-        }
-    .container.nav-inside{
+    }
+
+    .container.nav-inside {
         display: none;
     }
-    .dropdown{
+
+    .dropdown {
         color: black;
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         display: none;
         position: absolute;
         background-color: rgb(101, 100, 100);
@@ -94,16 +107,18 @@ a {
         padding: 2vh 1vh;
         z-index: 1;
     }
-    .dropdown:hover .dropdown-menu{
+
+    .dropdown:hover .dropdown-menu {
         display: block;
     }
-    .logo-pic{
+
+    .logo-pic {
         margin-left: 100px;
-       }
-       
+    }
 
 
-    
-    
+
+
+
 
 }
