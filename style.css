@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   background-color: rgba(232, 194, 81, 0.112);
   font-weight: bolder;
+ 
 }
 
 .header-div {
@@ -96,10 +97,12 @@ a {
 }
 
 .main-text {
-  font-size: 5vh;
+  font-size: 50px;
   margin: 0px;
   padding: 36px;
   background-color: rgba(232, 194, 81, 0.112);
+  font-family: 'Noto Sans Hebrew', sans-serif;
+font-family: 'Square Peg', cursive;
 
 
 }
