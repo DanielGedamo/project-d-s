@@ -11,6 +11,10 @@
     text-align: center;
     
   }
+  .button{
+    width: 110px;
+  }
+  
   .container-style {
     margin-bottom: 10vh;
     margin-top: 1vh;
@@ -111,9 +115,7 @@
    .container.nav-inside{
      display: none;
    }
-   .logo-pic{
-     margin-right: 110px;
-   }
+   
    .logo-pic {
     display: block;
     background-color: #dda24b;
