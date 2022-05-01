@@ -39,6 +39,7 @@ a {
 .img-globe {
   width: 25vh;
   height: 30vh;
+  
   position: absolute;
   animation-duration: 5s;
   animation-name: globe-pic;
