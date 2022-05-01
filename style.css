@@ -60,6 +60,7 @@ a {
   padding-top: 12px;
   border: 2px solid rgb(0, 0, 0);
   font-weight: bolder;
+  
 }
 
 
@@ -143,6 +144,7 @@ a {
     display: flex;
     justify-content: center;
     background-color: rgba(232, 194, 81, 0.112);
+    font-size: small;
 
   }
 
