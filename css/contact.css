@@ -68,9 +68,9 @@
   
 @media screen  and (max-width:600px) {
     .side-pic{
-      display: none;
-      
-    }  
+      height: 88vh;
+    } 
+     
     a {
       color: #000000;
       text-decoration: none;
