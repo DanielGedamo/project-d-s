@@ -12,21 +12,16 @@ body {
     color: red;
 }
 
-.thumbnail {
-    filter: blur(3px);
-}
-
-.thumbnail:hover {
-    filter: blur(0px);
-}
 
 .gallery-pic {
     width: 95%;
     transition: width 3s;
+    filter: blur(3px);
 }
 
 .gallery-pic:hover {
     width: 105%;
+    filter: blur(0px);
 }
 
 .header-div {
@@ -126,6 +121,10 @@ nav:hover{
         
     }
       
+    .thumbnail {
+        filter: blur(0px);
+    }
 
-
+}   .gallery-pic:hover {
+    width: 105%;
 }
