@@ -20,12 +20,12 @@ body {
     filter: blur(0px);
 }
 
-img {
+.gallery-pic {
     width: 95%;
     transition: width 3s;
 }
 
-img:hover {
+.gallery-pic:hover {
     width: 105%;
 }
 
