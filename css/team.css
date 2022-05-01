@@ -38,8 +38,8 @@ a {
   
 }
 .img-globe {
-  width: 25vh;
-  height: 30vh;
+  width: 40vh;
+  height: 39vh;
 
   position: absolute;
   animation-duration: 5s;
@@ -51,8 +51,8 @@ a {
 }
 
 .img-style-personal {
-  width: 25vh;
-  height: 30vh;
+  width: 40vh;
+  height: 39vh;
   position: absolute;
   animation-duration: 5s;
   animation-name: per-pic;
