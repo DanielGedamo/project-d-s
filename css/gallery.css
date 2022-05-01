@@ -15,7 +15,7 @@ body {
 
 .gallery-pic {
     width: 95%;
-    transition: width 3s;
+    transition: width 1s;
     filter: blur(3px);
 }
 
