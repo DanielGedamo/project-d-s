@@ -75,7 +75,7 @@
   
 @media screen  and (max-width:600px) {
     .side-pic{
-      height: 88vh;
+      background-image: url();
     } 
      
     a {
