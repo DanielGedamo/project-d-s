@@ -30,9 +30,10 @@ body {
 .logo-pic {
     display: block;
     background-color: #dda24b;
-    height: 90px;
-    width: 176px;
-}
+    height: 69px;
+    width: 125px;
+    margin-top: -5%;
+  }
 
 a {
     color: #000000;
@@ -114,7 +115,11 @@ a {
     }
 
     .logo-pic {
-        margin-left: 100px;
+        display: block;
+        background-color: #dda24b;
+        height: 69px;
+        width: 125px;
+        margin-top: 21%;
     }
 
 

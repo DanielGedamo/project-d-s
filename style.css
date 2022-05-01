@@ -25,12 +25,12 @@ body {
   color: black;
   background-color: #de9323c7;
 }
-
 .logo-pic {
   display: block;
   background-color: #dda24b;
-  height: 58px;
-  width: 95px;
+  height: 69px;
+  width: 125px;
+  margin-top: -5%;
 }
 
 a {
@@ -184,8 +184,11 @@ a {
   #empty-div {
     display: none;
   }
-
   .logo-pic {
-    margin-left: 20px;
-  }
+    display: block;
+    background-color: #dda24b;
+    height: 69px;
+    width: 125px;
+    margin-top: 21%;
+}
 }

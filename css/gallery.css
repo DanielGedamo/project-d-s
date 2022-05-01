@@ -51,16 +51,16 @@ img:hover {
     margin-bottom: -13vh;
     color: #000000;
     background-color: #de9323c7;
-}
-
-.logo-pic {
-    display: block;
-    background-color: #dda24b;
-    height: 90px;
-    width: 176px;
-}
-
-a {
+  }
+    .logo-pic {
+        display: block;
+        background-color: #dda24b;
+        height: 69px;
+        width: 125px;
+        margin-top: -5%;
+      }
+      
+  a {
     color: #000000;
     text-decoration: none;
 }
@@ -110,11 +110,14 @@ a {
     .dropdown:hover .dropdown-menu {
         display: block;
     }
-
     .logo-pic {
-        margin-left: 100px;
+        display: block;
+        background-color: #dda24b;
+        height: 69px;
+        width: 125px;
+        margin-top: 21%;
     }
-
+      
 
 
 }
