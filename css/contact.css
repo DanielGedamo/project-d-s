@@ -9,7 +9,7 @@
     background-size: cover;
     background-position-y: center;
     text-align: center;
-    filter: opacity(90%);
+    
   }
   .container-style {
     margin-bottom: 10vh;
@@ -95,14 +95,12 @@
       font-size: large;
   }
   
-  .container.nav-inside {
-    display: none;
-  }
+  
   .dropdown{
     color: black;
   }
   .dropdown-menu{
-    display: none;
+    
     position: absolute;
     background-color: rgb(101, 100, 100);
     min-width: 5vh;
@@ -112,8 +110,12 @@
   .dropdown:hover .dropdown-menu{
     display: block;
   }
-  .logo-pic{
-    margin-left: 100px;
+  
+   .container.nav-inside{
+     display: none;
+   }
+   .logo-pic{
+     margin-right: 110px;
    }
 
 
