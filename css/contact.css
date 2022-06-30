@@ -23,8 +23,9 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: -21vh;
-    color: #000000;
+    color: #ffffff;
     background-color:#de9323c7;
+    ;
   }
   .logo-pic {
     display: block;
